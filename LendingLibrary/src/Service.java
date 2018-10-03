@@ -1,10 +1,13 @@
+import java.util.Scanner;
 
 public class Service
 	{
 		public static void main(String[] args) {
-			System.out.println("Which genre do you like? Mystery, Love, Science Fiction or Fantasy");
-			
-			
-		
+			Scanner ask = new Scanner(System.in);
+			System.out.println("Which genre of books do you like? Mystrey, Love, Science Fiction or Fantasy?");
+			String anser = ask.nextLine(); 
+			  
 		}
+			
+            
 	}
